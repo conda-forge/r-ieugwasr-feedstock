@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ieugwasr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ieugwasr/ieugwasr_{{ version }}.tar.gz
-  sha256: 6fd59119e53c0e2dde6a415e5a13a44edb171d462023ded9534dc9b36a80657b
+  sha256: e0f64cd14df9363b4a0fd7155ac32bc4c6e93034045d6f419ed26b94dbba52c5
 
 build:
   number: 0
